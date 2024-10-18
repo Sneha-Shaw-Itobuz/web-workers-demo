@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shared Worker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Cross Tab Communication using Shared Worker</h2>
+      <form id="messageForm">
+        <input type="text" name="message" />
+        <button type="submit" class="send-button">Send</button>
+      </form>
+      <p id="messagesPlaceholder">No messages</p>
+      <ul id="messages" class="list-none grid"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
